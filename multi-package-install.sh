@@ -2,7 +2,7 @@
 
 USER_ID=$(id -u)
 
-if [ $user_id -ne 0 ]; then
+if [ $USER_ID -ne 0 ]; then
     echo "ERROR: Please install the package with sudo user..."
     exit 1
 fi
