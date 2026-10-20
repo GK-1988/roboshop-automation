@@ -14,3 +14,11 @@ if [ $? -eq 0 ]; then
 else
     echo "nginx installtion is FAILED"
 fi
+
+dnf install mysql-server -y
+
+if [ $? -eq 0 ]; then
+    echo "Mysql-server installtion is SUCCESS"
+else
+    echo "Mysql-server installtion is FAILED"
+fi
