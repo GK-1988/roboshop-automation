@@ -5,9 +5,9 @@ instance_type="t3.micro"
 
 echo "$ami_id"
 echo "$instance_type"
-echo $@
 
 for instance in $@
 do
     echo $instnce
+    sleep 1
 done
