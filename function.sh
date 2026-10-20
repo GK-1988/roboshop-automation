@@ -19,10 +19,10 @@ validation(){
 
 echo "Proceeding installation"
 dnf install nginx -y
-validate $? "Nginx Installtion"
+validation $? "Nginx Installtion"
 
 
 dnf install mysql-server -y
-validate $? "Mysql Installtion"
+validation $? "Mysql Installtion"
 echo "Still proceeding..."
 
