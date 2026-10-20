@@ -1,8 +1,9 @@
 #!/bin/bash
 
 USER_ID=$(id -u)
+echo "USER_ID=$USER_ID"
 
-if [ $USER_ID -ne 0 ]; then
+if [ "$USER_ID" -ne 0 ]; then
     echo "ERROR: Please install the package with sudo user..."
     exit 1
 fi
