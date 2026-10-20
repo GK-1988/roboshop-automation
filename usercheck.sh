@@ -3,10 +3,8 @@
 user_id=$(id -u)
 
 if [ $user_id -ne 0 ]; then
-    echo "Please run this script with sudo access..."  
+    echo "ERROR: Please run this script with sudo access..."  
     exit 1
-else
-    echo "You are running as roo user...."
 fi
 
 
