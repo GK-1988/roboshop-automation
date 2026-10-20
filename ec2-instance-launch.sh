@@ -9,5 +9,4 @@ echo "$instance_type"
 for instance in $@
 do
     echo $instnce
-    sleep 1
 done
