@@ -8,5 +8,5 @@ echo "$instance_type"
 
 for instance in $@
 do
-    echo $instnce
+    echo $instance
 done
