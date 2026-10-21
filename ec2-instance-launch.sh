@@ -12,5 +12,5 @@ echo "hosted_zone_id is: $HOSTED_ZONE_ID"
 ##===================Reading Components from CMD Line====================##
 for instance in $@
 do
-    echo "Creating instance is: $instance"
+    echo "Creating instance: $instance"
 done
