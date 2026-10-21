@@ -7,7 +7,7 @@ HOSTED_ZONE_ID="Z0977219186C15T2CZIRP"
 
 echo "$ami_id"
 echo "$instance_type"
-echo "$DOMAIN_ANME"
+echo "$DOMAIN_NAME"
 echo "$HOSTED_ZONE_ID"
 
 for instance in $@
